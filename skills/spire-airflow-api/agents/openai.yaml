@@ -1,0 +1,4 @@
+interface:
+  display_name: "Spire Airflow API"
+  short_description: "Query the Spire Airflow REST API"
+  default_prompt: "Use $spire-airflow-api to check recent DAG runs in Spire Airflow."
