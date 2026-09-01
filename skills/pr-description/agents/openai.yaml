@@ -1,0 +1,4 @@
+interface:
+  display_name: "PR description"
+  short_description: "Write a structured, bullet-first PR description"
+  default_prompt: "Use $pr-description to write the description for this branch's pull request."
