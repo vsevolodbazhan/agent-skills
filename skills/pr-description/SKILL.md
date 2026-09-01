@@ -8,6 +8,11 @@ description: Write or rewrite a pull request description in the fixed Problem / 
 Produce a PR body that a reviewer can read in under a minute and know what to
 look at.
 
+## Language
+
+Match the repository's language: if existing PRs and commits are in Russian,
+write in Russian and translate the headings accordingly.
+
 ## Ask when you do not know
 
 The diff shows what changed. It does not show why, who asked, what was ruled
@@ -80,8 +85,6 @@ Use these sections, in this order, with these exact headings:
   late rows`), not a bare URL or bare ID.
 - No marketing adjectives, no "this PR ...", no restating the title, no
   self-congratulation, no emoji headers.
-- Match the repository's language: if existing PRs and commits are in Russian,
-  write in Russian and translate the headings accordingly.
 
 ## Workflow
 
