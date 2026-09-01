@@ -10,8 +10,9 @@ look at.
 
 ## Language
 
-Match the repository's language: if existing PRs and commits are in Russian,
-write in Russian and translate the headings accordingly.
+Match the repository's language: for example, if existing PRs and commits are in Russian,
+write in Russian and translate the headings accordingly. Choose one language to write
+the description in and don't mix languages.
 
 ## Ask when you do not know
 
@@ -49,19 +50,19 @@ How to ask:
 Use these sections, in this order, with these exact headings:
 
 ```markdown
-## Problem
+## Problem (Проблема)
 - What is broken, missing, or costly today.
 
-## Context
+## Context (Контекст)
 - Optional. Why this surfaced now; prior attempts; links with a one-line gist.
 
-## Changes
+## Changes (Изменения)
 - The change, in reviewer-relevant terms.
 
-## Limitations
+## Limitations (Ограничения)
 - Optional. Known gaps, deliberate omissions, alternatives considered and why not.
 
-## Examples
+## Examples (Примеры)
 - Optional. Before/after, sample output, commands, screenshots.
 ```
 
