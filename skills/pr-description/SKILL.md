@@ -50,26 +50,34 @@ How to ask:
 Use these sections, in this order, with these exact headings:
 
 ```markdown
-## Problem (Проблема)
+## Problem
 - What is broken, missing, or costly today.
 
-## Context (Контекст)
+## Context
 - Optional. Why this surfaced now; prior attempts; links with a one-line gist.
 
-## Changes (Изменения)
+## Changes
 - The change, in reviewer-relevant terms.
 
-## Limitations (Ограничения)
+## Limitations
 - Optional. Known gaps, deliberate omissions, alternatives considered and why not.
 
-## Examples (Примеры)
-- Optional. Before/after, sample output, commands, screenshots.
+## Examples
+- Optional. Before/after, sample output, commands, screenshots. Don't put tests here. This section is applicable for PRs where the changes can be demoed.
 ```
 
 - **Problem** and **Changes** are always present.
 - The other three appear only when they carry information. Never emit an empty
   or filler section.
 - Nothing above the first heading — no summary paragraph, no restated title.
+
+### Section Headings in Russian
+
+- Проблема
+- Контекст
+- Изменения
+- Ограничения
+- Примеры
 
 ## Rules
 
