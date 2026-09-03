@@ -33,6 +33,6 @@ description: Write a pull request description.
 ## Limitations/Ограничения
 - Optional. Known gaps, deliberate omissions, alternatives considered, and why not.
 
-## Examples/Изменения
+## Examples/Примеры
 - Optional. Before/after, sample output, commands, screenshots. Don't put tests or checks here. This section applies to PRs where the changes can be demoed.
 ```
