@@ -5,6 +5,8 @@ description: Write an issue description.
 
 # General
 
+- Use `gh` CLI if available. 
+- Attach screenshots and other media if applicable.
 - Produce a body that can be read in under a minute.
 - Bullet points by default. Prose only when a bullet would mangle the meaning, and then at most two sentences.
 - No bullet point restates another.

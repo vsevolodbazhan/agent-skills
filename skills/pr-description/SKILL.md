@@ -5,6 +5,8 @@ description: Write a pull request description.
 
 # General
 
+- Use `gh` CLI if available. 
+- Attach screenshots and other media if applicable.
 - Produce a PR body that a reviewer can read in under a minute and know what to look at.
 - Bullet points by default. Prose only when a bullet would mangle the meaning, and then at most two sentences.
 - No bullet point restates another.
