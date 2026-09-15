@@ -1,5 +1,5 @@
 ---
-name: ticket-filler
+name: jira-ticket-filler
 description: Use this skill whenever the user asks to write, fill in, dополнить, doработать, or enrich a Jira ticket description — especially for the Data Forge team's tickets. Trigger it any time a ticket (existing or new) needs a Problem / Context / Expected Result structure, or when the ticket text or a linked source contains a Slack link (archives, /messages/, thread) or a GitHub link (PR, issue, commit, file, repo). Always use this skill before writing a ticket description from scratch, and always use it when asked to "заполни тикет", "оформи тикет", "допиши контекст в тикет", or similar — don't just paraphrase the raw ticket text without following this structure and without checking linked sources.
 ---
 
