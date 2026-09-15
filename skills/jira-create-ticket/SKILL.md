@@ -6,6 +6,7 @@ description: When user asks to create a task or a ticket in Jira.
 # General
 
 - Use defaults unless user explicitly asks for something else.
+- Use jira-ticket-filler to fill the ticket.
 
 # Defaults
 
