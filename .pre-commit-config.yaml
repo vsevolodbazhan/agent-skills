@@ -1,6 +1,14 @@
 repos:
   - repo: local
     hooks:
+      - id: skill-check
+        name: Check agent skills
+        entry: python scripts/check_skills.py
+        language: python
+        additional_dependencies:
+          - PyYAML
+        pass_filenames: false
+        always_run: true
       - id: sync-skills
         name: Sync agent skills
         entry: fish sync.fish

@@ -1,21 +1,24 @@
 ---
 name: cross-code-review
-description: Request code review from other model and/or harness.
+description: Request cross code review from other model and/or harness.
 ---
 
 # General
 
-- If you are a Anthropic model, prioritize requesting review from OpenAI (Codex) models.
+- If you are an Anthropic model, prioritize requesting review from OpenAI (Codex) models.
 - If you are an OpenAI model, prioritize requesting review from Anthropic (Claude) models.
 - Base branch is generally `master` but might be `main`.
 - If you are given a PR to review, checkout its branch locally first.
+- Tweak default timeout for big changes.
 
 # Codex
 
 ```
-codex --model gpt-6-astra --sandbox read-only review --base main
+gtimeout 600s codex --model gpt-5.6-sol --sandbox read-only review --base main
 ```
 
 # Claude
 
-claude --permission-mode auto --model opus --print "Review current changes against the base branch `main`".
+```
+gtimeout 600s claude --permission-mode auto --model opus --print "Review current changes against the base branch main"
+```
