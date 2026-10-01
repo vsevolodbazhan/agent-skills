@@ -14,7 +14,7 @@ description: Request cross code review from other model and/or harness.
 # Codex
 
 ```
-gtimeout 600s codex --model gpt-5.6-sol --sandbox read-only review --base main
+gtimeout 600s codex --model gpt-6.1-sol --sandbox read-only review --base main
 ```
 
 # Claude
